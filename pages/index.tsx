@@ -39,7 +39,7 @@ const Home = (): JSX.Element => (
         <Container>
           <Text textAlign="center">
             I&apos;m a Statistics & Computer Science undergrad at the University
-            of Illinois Urbana-Champaign. Currently interning as a Data Engineer
+            of Illinois Urbana-Champaign, expected to graduate in December 2024. Currently interning as a Data Engineer
             at{' '}
             <a
               href="https://www.agoda.com"
@@ -48,7 +48,7 @@ const Home = (): JSX.Element => (
             >
               Agoda
             </a>{' '}
-            and living in Thailand.
+            in Bangkok, Thailand.
           </Text>
         </Container>
         <Link href="/about">

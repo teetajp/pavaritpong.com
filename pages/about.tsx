@@ -74,7 +74,6 @@ const About = ({ experiences }: AboutProps): JSX.Element => (
       <Container maxWidth={['100%', '720px']} marginY="2rem">
         <Text>Born and raised in Thailand, I moved to Minnesota, USA for high school since I was 13.
         Now, I&apos;m a Statistics & Computer Science undergrad at the University of Illinois Urbana-Champaign, expected to graduate in December 2024.</Text>
-        <Text>I am interning as a Data Engineer at Agoda in Bangkok, Thailand from January to August 2023.</Text>
         <Text>
           I enjoy learning about how the world works. Some topics I like reading about, broadly speaking, include computer science, philosophy, economics, sociology, psychology, and biology.
         </Text>
