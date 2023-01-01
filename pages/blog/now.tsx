@@ -62,14 +62,14 @@ const stacks = [
   },
 ];
 
-const About = ({ experiences }: AboutProps): JSX.Element => (
+const Now = ({ experiences }: AboutProps): JSX.Element => (
   <Container>
     <Head>
-      <title>About</title>
+      <title>What I'm Doing Now</title>
     </Head>
     <Container alignContent="center" alignItems="center">
       <Title fontSize={['3rem', '4rem']} as="h2">
-        About Me
+        What I'm Doing Now
       </Title>
       <Container maxWidth={['100%', '720px']} marginY="2rem">
         <Text>Born and raised in Thailand, I moved to Minnesota, USA for high school since I was 13.
@@ -183,4 +183,4 @@ export const getStaticProps: GetStaticProps = async () => {
   };
 };
 
-export default About;
+export default Now;
