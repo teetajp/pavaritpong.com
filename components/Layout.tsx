@@ -3,7 +3,7 @@ import Head from 'next/head';
 import Container from './Container';
 import Footer from './Footer';
 import Nav from './Nav';
-import Script from 'next/script';
+// import Script from 'next/script';
 
 import styles from '@styles/Home.module.css';
 
@@ -18,7 +18,6 @@ const Layout: React.FC<LayoutProps> = ({
 }) => {
   const [isOpen, setIsOpen] = React.useState(false);
 
-  // TODO: edit metadata, Google Tag, and image preview
   return (
     <div className={styles.container}>
       <Head>
@@ -30,14 +29,15 @@ const Layout: React.FC<LayoutProps> = ({
         <meta property="og:title" content="TJ Pavaritpong" />
         <meta
           property="og:description"
-          content="I'm a Full Stack developer with experience in DevOps, Backend, Frontend and mobile development."
+          content="I'm a Statistics & Computer Science undergrad at the University of Illinois Urbana-Champaign, expected to graduate in December 2024."
         />
         <meta property="og:type" content="website" />
         <meta
           property="og:image"
           content="https://pavaritpong.com/img/preview.webp"
         />
-        {process.env.NODE_ENV === 'production' && (
+        {/* TODO: add your own gtag */ }
+        {/* {process.env.NODE_ENV === 'production' && (
           <>
             <Script
               async
@@ -56,7 +56,7 @@ const Layout: React.FC<LayoutProps> = ({
               }}
             />
           </>
-        )}
+        )} */}
       </Head>
       <Nav
         isOpen={isOpen}
