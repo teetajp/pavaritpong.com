@@ -69,21 +69,27 @@ const About = ({ experiences }: AboutProps): JSX.Element => (
     </Head>
     <Container alignContent="center" alignItems="center">
       <Title fontSize={['3rem', '4rem']} as="h2">
-        CTO & passionate
+        Always Learning
       </Title>
       <Container maxWidth={['100%', '720px']} marginY="2rem">
-        <Text>I&apos;m a Full-Stack/DevOps developer living in Paris.</Text>
+        <Text>Born and raised in Thailand, I moved to Minnesota, USA for high school since I was 13.
+        Now, I&apos;m a Statistics & Computer Science undergrad at the University of Illinois Urbana-Champaign, expected to graduate in December 2024.</Text>
+        <Text>I am interning as a Data Engineer at Agoda in Bangkok, Thailand from January to August 2023.</Text>
         <Text>
-          During my free time I like going gym, doing Bench Press, make design
-          and make video edits on After Effects. You can check some cool drone
-          edits on my&nbsp;
-          <a href="https://instagram.com/croissant2france">Instagram</a>.
+          I enjoy learning about how the world works. Some topics I like reading about, broadly speaking, include computer science, philosophy, economics, sociology, psychology, and biology.
         </Text>
+        {/* <Text>
+          This curiosity also carries over to my hobbies. I learn about food science to improve my cooking; Anatomy, physiology, and nutrition to optimize my gym and Muay Thai performance.
+          ...
+        </Text>
+        <Text>
+          Add more text here ...
+        </Text> */}
       </Container>
     </Container>
 
     <Container
-      paddingY="4rem"
+      paddingY="2rem"
       gridGap="2rem"
       alignContent="center"
       alignItems="center"

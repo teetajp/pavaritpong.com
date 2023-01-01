@@ -57,7 +57,7 @@ const Home = (): JSX.Element => (
       </Container>
     </Container>
 
-    <Container alignItems="center" paddingY="4rem">
+    <Container alignItems="center" paddingY="2rem">
       <Container maxWidth="600px" alignItems="center" alignContent="center">
         <Title fontSize="3rem" as="h3">
           Get in touch
