@@ -48,7 +48,7 @@ const Projects = ({ projects }: ProjectProps): JSX.Element => (
       <Text textAlign="center">
         I&apos;m always working on new projects. <br />
         You can find them on my&nbsp;
-        <a href="https://github.com/shellbear">Github</a>.
+        <a href="https://github.com/teetajp">Github</a>.
       </Text>
     </Container>
     <Grid

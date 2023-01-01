@@ -73,7 +73,7 @@ const Home = (): JSX.Element => (
           justifyItems="stretch"
           alignItems="stretch"
         >
-          <Link href="mailto:hello@shellbear.me">
+          <Link href="mailto:tj.pavaritpong@gmail.com">
             <Button width="100%">
               <motion.span
                 initial={{ display: 'inline-block' }}

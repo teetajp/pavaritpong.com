@@ -1,37 +1,28 @@
-import React from 'react';
-import { Title, Text, Container, Grid, Link, Card } from '@components';
+import { Card, Container, Grid, Link, Text, Title } from '@components';
 import { GetStaticProps } from 'next';
 import Head from 'next/head';
 
-import {
-  SiGo,
-  SiKubernetes,
-  SiElixir,
-  SiPostgresql,
-  SiTypescript,
-  SiAmazonaws,
-  SiGooglecloud,
-  SiTerraform,
-  SiReact,
-  SiNextdotjs,
-  SiPython,
-  SiGraphql,
-} from 'react-icons/si';
-import { getPosts, Post } from '@posts';
 import { TransparentLink } from '@components';
+import { getPosts, Post } from '@posts';
+import {
+  SiCplusplus, SiGit, SiGooglecloud, SiMaterialui, SiMysql, SiNodedotjs, SiPython, SiR, SiReact, SiRedux, SiScala, SiTypescript
+} from 'react-icons/si';
 
 interface AboutProps {
   experiences: Post[];
 }
-
 const stacks = [
   {
-    Icon: SiGo,
-    url: 'https://golang.org/',
+    Icon: SiScala,
+    url: 'https://www.scala-lang.org/',
   },
   {
-    Icon: SiKubernetes,
-    url: 'https://kubernetes.io/',
+    Icon: SiPython,
+    url: 'https://www.python.org/',
+  },
+  {
+    Icon: SiCplusplus,
+    url: 'https://isocpp.org/',
   },
   {
     Icon: SiTypescript,
@@ -42,36 +33,32 @@ const stacks = [
     url: 'https://reactjs.org/',
   },
   {
-    Icon: SiGraphql,
-    url: 'https://graphql.org/',
+    Icon: SiRedux,
+    url: 'https://redux.js.org/',
   },
   {
-    Icon: SiAmazonaws,
-    url: 'https://aws.amazon.com/',
+    Icon: SiMaterialui,
+    url: 'https://mui.com/',
   },
   {
-    Icon: SiNextdotjs,
-    url: 'https://nextjs.org/',
+    Icon: SiNodedotjs,
+    url: 'https://nodejs.org/en/',
   },
   {
-    Icon: SiElixir,
-    url: 'https://elixir-lang.org/',
+    Icon: SiMysql,
+    url: 'https://www.mysql.com/',
   },
   {
     Icon: SiGooglecloud,
     url: 'https://cloud.google.com/',
   },
   {
-    Icon: SiTerraform,
-    url: 'https://www.terraform.io/',
+    Icon: SiR,
+    url: 'https://www.r-project.org/',
   },
   {
-    Icon: SiPostgresql,
-    url: 'https://www.postgresql.org/',
-  },
-  {
-    Icon: SiPython,
-    url: 'https://www.python.org/',
+    Icon: SiGit,
+    url: 'https://git-scm.com/',
   },
 ];
 

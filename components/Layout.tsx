@@ -18,6 +18,7 @@ const Layout: React.FC<LayoutProps> = ({
 }) => {
   const [isOpen, setIsOpen] = React.useState(false);
 
+  // TODO: edit metadata, Google Tag, and image preview
   return (
     <div className={styles.container}>
       <Head>
@@ -32,8 +33,6 @@ const Layout: React.FC<LayoutProps> = ({
           content="I'm a Full Stack developer with experience in DevOps, Backend, Frontend and mobile development."
         />
         <meta property="og:type" content="website" />
-        <meta property="twitter:site" content="@_shellbear" />
-        <meta name="twitter:card" content="summary_large_image" />
         <meta
           property="og:image"
           content="https://shellbear.me/img/preview.webp"
