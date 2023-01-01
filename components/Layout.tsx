@@ -35,7 +35,7 @@ const Layout: React.FC<LayoutProps> = ({
         <meta property="og:type" content="website" />
         <meta
           property="og:image"
-          content="https://shellbear.me/img/preview.webp"
+          content="https://pavaritpong.com/img/preview.webp"
         />
         {process.env.NODE_ENV === 'production' && (
           <>

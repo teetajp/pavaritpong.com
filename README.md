@@ -1,11 +1,11 @@
-# [shellbear.me](https://shellbear.me/)
+# [pavaritpong.com](https://pavaritpong.com/)
 
 Source code of my personal website & blog ✨
 
-Check the live version [here](https://shellbear.me/) ⚡️
+Check the live version [here](https://pavaritpong.com/) ⚡️
 
-[![home](.github/img/home.png)](https://shellbear.me/)
-[![blog](.github/img/blog.png)](https://shellbear.me/)
+[![home](.github/img/home.png)](https://pavaritpong.com/)
+[![blog](.github/img/blog.png)](https://pavaritpong.com/)
 
 ## ✨ Features
 
