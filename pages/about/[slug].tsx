@@ -7,7 +7,7 @@ import {
 import Head from 'next/head';
 import { Container, Title, Text, MDXContent, Separator } from '@components';
 import { getPosts, Post } from '@posts';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 
 const About: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
   experience,

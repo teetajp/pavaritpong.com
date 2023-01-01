@@ -1,7 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 import { GetServerSidePropsContext, InferGetServerSidePropsType } from 'next';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import TimeAgo from 'javascript-time-ago';
 import { Title, Container, Text, Grid, Link, Card } from '@components';
 
