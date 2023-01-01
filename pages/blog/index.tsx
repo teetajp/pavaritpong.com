@@ -18,8 +18,8 @@ const Blog: NextPage<BlogProps> = ({ pages }) => {
   return (
     <Container maxWidth={1200}>
       <Head>
-        <title>Blog - Antoine Ordonez</title>
-        <meta property="og:title" content="Blog – Antoine Ordonez" />
+        <title>Blog - TJ Pavaritpong</title>
+        <meta property="og:title" content="Blog – TJ Pavaritpong" />
       </Head>
       <Container mb="3rem">
         <Title>Blog</Title>

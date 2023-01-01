@@ -19,13 +19,13 @@ const Home = (): JSX.Element => (
       <Container alignItems="center" alignContent="center">
         <Image
           src="/me.webp"
-          alt="Antoine Ordonez"
+          alt="TJ Pavaritpong"
           width={120}
           height={120}
           objectFit="cover"
           className={styles.image}
         />
-        <Title>Antoine Ordonez</Title>
+        <Title>TJ Pavaritpong</Title>
         <Title
           fontSize="2rem"
           color="rgba(0, 0, 0, 0.6)"
@@ -38,9 +38,17 @@ const Home = (): JSX.Element => (
       <Container maxWidth="700px" gridGap="3rem">
         <Container>
           <Text textAlign="center">
-            I&apos;m a Full Stack developer with experience in DevOps, Backend,
-            Frontend and mobile development. Currently CTO of&nbsp;
-            <a href="https://shareview.fr">Shareview</a> and living in Paris.
+            I&apos;m a Statistics & Computer Science undergrad at the University
+            of Illinois Urbana-Champaign. Currently interning as a Data Engineer
+            at{' '}
+            <a
+              href="https://www.agoda.com"
+              target="_blank"
+              rel="nopener noreferrer"
+            >
+              Agoda
+            </a>{' '}
+            and living in Thailand.
           </Text>
         </Container>
         <Link href="/about">
@@ -55,8 +63,8 @@ const Home = (): JSX.Element => (
           Get in touch
         </Title>
         <Text textAlign="center">
-          Although I&apos;m not actively looking for job opportunities, my inbox
-          is still open for you. Feel free to ask me anything!
+          Although I&apos;m not actively looking for job opportunities, I will
+          be seeking US-based internships for Summer 2024 once the recruiting season begins.
         </Text>
         <Grid
           gridGap="2rem"
@@ -83,7 +91,7 @@ const Home = (): JSX.Element => (
           </Link>
           <Link
             target="_blank"
-            href="https://calendly.com/antoine-ordonez/intro"
+            href="https://calendly.com/tj-pavaritpong/intro"
           >
             <Button
               width="100%"

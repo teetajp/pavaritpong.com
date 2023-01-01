@@ -88,7 +88,7 @@ const Nav = ({ isOpen, onOpen, onClose }: NavProps): JSX.Element => {
       margin="3rem 0"
     >
       <Container display={['none', 'none', 'flex']}>
-        <NavLink href="/">Antoine Ordonez</NavLink>
+        <NavLink href="/">TJ Pavaritpong</NavLink>
       </Container>
       <MenuContainer display={['flex', 'none', 'none']}>
         {isOpen ? (
@@ -138,7 +138,7 @@ const Nav = ({ isOpen, onOpen, onClose }: NavProps): JSX.Element => {
         </Grid>
       </Container>
       <Container alignContent="flex-end" display={['none', 'none', 'flex']}>
-        <NavLink href="mailto:hello@shellbear.me">Contact</NavLink>
+        <NavLink href="mailto:tj.pavaritpong@gmail.com">Contact</NavLink>
       </Container>
     </Grid>
   );
