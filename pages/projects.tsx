@@ -44,12 +44,12 @@ const Projects = ({ projects }: ProjectProps): JSX.Element => (
       <title>Projects</title>
     </Head>
     <Container alignItems="center">
-      <Title>Projects</Title>
-      <Text textAlign="center">
+      <Title>Projects (under construction...)</Title>
+      {/* <Text textAlign="center">
         I&apos;m always working on new projects. <br />
         You can find them on my&nbsp;
         <a href="https://github.com/teetajp">Github</a>.
-      </Text>
+      </Text> */}
     </Container>
     <Grid
       py="4rem"
