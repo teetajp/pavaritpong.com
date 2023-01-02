@@ -32,9 +32,10 @@ const Layout: React.FC<LayoutProps> = ({
           content="I'm a Statistics & Computer Science undergrad at the University of Illinois Urbana-Champaign, expected to graduate in December 2024."
         />
         <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.pavaritpong.com" />
         <meta
           property="og:image"
-          content="https://pavaritpong.com/img/preview.webp"
+          content="https://www.pavaritpong.com/img/preview.webp"
         />
         {/* TODO: add your own gtag */ }
         {/* {process.env.NODE_ENV === 'production' && (
