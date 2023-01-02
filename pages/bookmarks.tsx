@@ -18,7 +18,7 @@ const Bookmarks = ({
   <Container marginBottom="5rem">
     <Head>
       <title>Bookmarks</title>
-      <link rel="preconnect" href="https://rdl.ink" />
+      {/* <link rel="preconnect" href="https://rdl.ink" /> */}
     </Head>
     <Container alignItems="center" mb="3rem">
       <Title>Bookmarks</Title>
