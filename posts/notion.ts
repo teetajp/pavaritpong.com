@@ -6,10 +6,6 @@ export const POSTS = {
     date: new Date('2021-06-30').toDateString(),
     uri: 'teetajp/Hello-World-0845e42874cc4a5c8a64dfd48849a0e3',
   },
-  'lorem-ipsum': {
-    date: new Date('2021-06-29').toDateString(),
-    uri: 'teetajp/Lorem-Ipsum-649dedb380f44bea932305255627f82a',
-  },
 };
 
 export interface PageInfo {
