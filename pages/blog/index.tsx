@@ -22,7 +22,7 @@ const Blog: NextPage<BlogProps> = ({ pages }) => {
         <meta property="og:title" content="Blog – TJ Pavaritpong" />
       </Head>
       <Container mb="3rem">
-        <Title>Blog (under construction...)</Title>
+        <Title>Blog</Title>
         <Text textAlign="center">
           Posts about code, projects and various other things.
         </Text>

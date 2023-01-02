@@ -6,8 +6,8 @@ I cloned and modified this web project from [**shellbear.me GitHub**](https://gi
 
 Check my live version [here](https://pavaritpong.com/) ⚡️
 
-<!-- [![home](.github/img/home.png)](https://pavaritpong.com/)
-[![blog](.github/img/blog.png)](https://pavaritpong.com/) -->
+[![home](.github/img/home.png)](https://pavaritpong.com/)
+[![blog](.github/img/blog.png)](https://pavaritpong.com/)
 
 ## ✨ Features
 
@@ -47,6 +47,10 @@ yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Notes
+
+- Notion cover images should be `2000 px * 400 px` and in `.png` file extension
 
 ## 🗝 License
 

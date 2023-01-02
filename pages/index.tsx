@@ -55,7 +55,7 @@ const Home = (): JSX.Element => (
           <Button>More about me &rarr;</Button>
         </Link>
         { /* TODO: Create "Download Resume" button */ }
-        {/* <Link href="/about">
+        {/* <Link href="/TJ_Pavaritpong_Resume.pdf" target="_blank">
           <Button>Download Resume</Button>
         </Link> */}
       </Container>
