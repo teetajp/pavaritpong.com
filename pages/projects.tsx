@@ -54,10 +54,10 @@ const Projects = ({ projects }: ProjectProps): JSX.Element => (
     <Grid
       py="4rem"
       px="2rem"
-      gridAutoColumns={`minmax(0, 1fr)`}
-      gridAutoFlow="column"
+      gridTemplateColumns={`repeat(auto-fill, minmax(320px, 1fr))`}
       width="100%"
       gridGap="10%"
+      display="grid"
     >
       {projects.map(({ data }) => (
         <ProjectContainer
