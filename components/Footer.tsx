@@ -34,7 +34,7 @@ const links = [
     icon: SiGithub,
   },
   {
-    url: 'mailto:tj.pavaritpong@gmail.com',
+    url: 'mailto:tj@pavaritpong.com',
     icon: MdMail,
   },
   {
@@ -50,7 +50,7 @@ const Footer = (): JSX.Element => (
         <Link href="/">Home</Link>
         <Link href="/about">About</Link>
         <Link href="/projects">Projects</Link>
-        <Link href="mailto:tj.pavaritpong@gmail.com">Contact</Link>
+        <Link href="mailto:tj@pavaritpong.com">Contact</Link>
       </Grid>
     </Container>
     <FooterGrid>

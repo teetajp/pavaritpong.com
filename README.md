@@ -6,8 +6,8 @@ I cloned and modified this web project from [**shellbear.me GitHub**](https://gi
 
 Check my live version [here](https://pavaritpong.com/) ⚡️
 
-[![home](.github/img/home.png)](https://pavaritpong.com/)
-[![blog](.github/img/blog.png)](https://pavaritpong.com/)
+<!-- [![home](.github/img/home.png)](https://pavaritpong.com/)
+[![blog](.github/img/blog.png)](https://pavaritpong.com/) -->
 
 ## ✨ Features
 
