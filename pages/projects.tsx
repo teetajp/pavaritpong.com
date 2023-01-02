@@ -44,12 +44,12 @@ const Projects = ({ projects }: ProjectProps): JSX.Element => (
       <title>Projects</title>
     </Head>
     <Container alignItems="center">
-      <Title>Projects (under construction...)</Title>
-      {/* <Text textAlign="center">
+      <Title>Projects</Title>
+      <Text textAlign="center">
         I&apos;m always working on new projects. <br />
         You can find them on my&nbsp;
         <a href="https://github.com/teetajp">Github</a>.
-      </Text> */}
+      </Text>
     </Container>
     <Grid
       py="4rem"
@@ -65,7 +65,7 @@ const Projects = ({ projects }: ProjectProps): JSX.Element => (
           width="100%"
           gridGap="1.5rem"
         >
-          <Link href={data.url} width="100%">
+          <Link href={data.url} width="100%" target="_blank" rel="noopener noreferrer">
             <ProjectImage src={data.preview} />
           </Link>
           <Container
@@ -74,12 +74,12 @@ const Projects = ({ projects }: ProjectProps): JSX.Element => (
             alignItems="center"
             width="100%"
           >
-            <Link href={data.url}>
+            <Link href={data.url} target="_blank" rel="noopener noreferrer">
               <Title fontSize="2rem" as="h2">
                 {data.title}
               </Title>
             </Link>
-            <Link href={data.url}>
+            <Link href={data.url} target="_blank" rel="noopener noreferrer">
               <ProjectButton variant="secondary">View Project</ProjectButton>
             </Link>
           </Container>
