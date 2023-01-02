@@ -72,18 +72,17 @@ const About = ({ experiences }: AboutProps): JSX.Element => (
         About Me
       </Title>
       <Container maxWidth={['100%', '720px']} marginY="2rem">
-        <Text>Born and raised in Thailand, I moved to Minnesota, USA for high school since I was 13.
+        <Text>Born and raised in Thailand, I moved to Minnesota, USA for high school when I was 13.
         Now, I&apos;m a Statistics & Computer Science undergrad at the University of Illinois Urbana-Champaign, expected to graduate in December 2024.</Text>
         <Text>
-          I enjoy learning about how the world works. Some topics I like reading about, broadly speaking, include computer science, philosophy, economics, sociology, psychology, and biology.
-        </Text>
-        {/* <Text>
-          This curiosity also carries over to my hobbies. I learn about food science to improve my cooking; Anatomy, physiology, and nutrition to optimize my gym and Muay Thai performance.
-          ...
+        As an inquisitive person, I enjoy learning about how the physical world works as well as how we, as humans, think on an individual and societal level.  
+        My areas of interest, broadly speaking, include computer science, philosophy, economics, and sociology.
         </Text>
         <Text>
-          Add more text here ...
-        </Text> */}
+        My innate curiosity carries over to my hobbies in interesting ways such as learning food science to improve my cooking (which I totally recommend).
+        I also like Muay Thai, mixology, poker, and rugby.
+
+        </Text>
       </Container>
     </Container>
 
