@@ -1,6 +1,7 @@
 import React from 'react';
 import { AppProps } from 'next/app';
 import { motion } from 'framer-motion';
+import { Analytics } from '@vercel/analytics/react';
 
 import { Layout } from '@components';
 
@@ -22,6 +23,7 @@ const App = ({ Component, pageProps }: AppProps): JSX.Element => (
       transition={{ duration: 0.2 }}
     >
       <Component {...pageProps} />
+      <Analytics />
     </motion.div>
   </Layout>
 );
