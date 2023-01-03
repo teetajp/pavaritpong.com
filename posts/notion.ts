@@ -3,8 +3,12 @@ import { getPageTitle } from 'notion-utils';
 
 export const POSTS = {
   'hello-world': {
-    date: new Date('2021-06-30').toDateString(),
+    date: new Date('2023-01-02').toDateString(),
     uri: 'teetajp/Hello-World-0845e42874cc4a5c8a64dfd48849a0e3',
+  },
+  '2023-plans': {
+    date: new Date('2023-01-02').toDateString(),
+    uri: 'teetajp/Plans-for-2023-2aeec7bf50fc4af39fe65c571eebf938'
   },
 };
 

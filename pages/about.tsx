@@ -80,7 +80,7 @@ const About = ({ experiences }: AboutProps): JSX.Element => (
         </Text>
         <Text>
         My innate curiosity carries over to my hobbies in interesting ways such as learning food science to improve my cooking (which I totally recommend).
-        I also like Muay Thai, mixology, poker, and rugby.
+        I also enjoy Muay Thai, mixology, poker, and rugby.
 
         </Text>
       </Container>
