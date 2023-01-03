@@ -56,7 +56,7 @@ const Projects = ({ projects }: ProjectProps): JSX.Element => (
       px="2rem"
       gridTemplateColumns={`repeat(auto-fill, minmax(320px, 1fr))`}
       width="100%"
-      gridGap="10%"
+      gridGap={["5%", "10%"]}
       display="grid"
       marginBottom={["12rem", "0rem"]}
     >
