@@ -58,6 +58,7 @@ const Projects = ({ projects }: ProjectProps): JSX.Element => (
       width="100%"
       gridGap="10%"
       display="grid"
+      marginBottom={["12rem", "0rem"]}
     >
       {projects.map(({ data }) => (
         <ProjectContainer
