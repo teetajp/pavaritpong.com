@@ -37,27 +37,6 @@ const Layout: React.FC<LayoutProps> = ({
           property="og:image"
           content="https://www.pavaritpong.com/img/preview.webp"
         />
-        {/* TODO: add your own gtag */ }
-        {/* {process.env.NODE_ENV === 'production' && (
-          <>
-            <Script
-              async
-              src="https://www.googletagmanager.com/gtag/js?id=G-RZP6RWZ32F"
-            />
-            <Script
-              id="gtm-script"
-              strategy="afterInteractive"
-              dangerouslySetInnerHTML={{
-                __html: `
-                  window.dataLayer = window.dataLayer || [];
-                  function gtag(){dataLayer.push(arguments);}
-                  gtag('js', new Date());
-      
-                  gtag('config', 'G-RZP6RWZ32F');`,
-              }}
-            />
-          </>
-        )} */}
       </Head>
       <Nav
         isOpen={isOpen}

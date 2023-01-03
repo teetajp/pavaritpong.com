@@ -1,11 +1,22 @@
-import { Card, Container, Grid, Link, Text, Title } from '@components';
+import { Card, Container, Grid, Link, Text, Title, Button } from '@components';
 import { GetStaticProps } from 'next';
 import Head from 'next/head';
 
 import { TransparentLink } from '@components';
 import { getPosts, Post } from '@posts';
 import {
-  SiCplusplus, SiGit, SiGooglecloud, SiMaterialui, SiMysql, SiNodedotjs, SiPython, SiR, SiReact, SiRedux, SiScala, SiTypescript
+  SiCplusplus,
+  SiGit,
+  SiGooglecloud,
+  SiMaterialui,
+  SiMysql,
+  SiNodedotjs,
+  SiPython,
+  SiR,
+  SiReact,
+  SiRedux,
+  SiScala,
+  SiTypescript,
 } from 'react-icons/si';
 
 interface AboutProps {
@@ -72,16 +83,22 @@ const About = ({ experiences }: AboutProps): JSX.Element => (
         About Me
       </Title>
       <Container maxWidth={['100%', '720px']} marginY="2rem">
-        <Text>Born and raised in Thailand, I moved to Minnesota, USA for high school when I was 13.
-        Now, I&apos;m a Statistics & Computer Science undergrad at the University of Illinois Urbana-Champaign, expected to graduate in December 2024.</Text>
         <Text>
-        As an inquisitive person, I enjoy learning about how the physical world works as well as how we, as humans, think on an individual and societal level.  
-        My areas of interest, broadly speaking, include computer science, philosophy, economics, and sociology.
+          Born and raised in Thailand, I moved to Minnesota, USA for high school
+          when I was 13. Now, I&apos;m a Statistics & Computer Science undergrad
+          at the University of Illinois Urbana-Champaign, expected to graduate
+          in December 2024.
         </Text>
         <Text>
-        My innate curiosity carries over to my hobbies in interesting ways such as learning food science to improve my cooking (which I totally recommend).
-        I also enjoy Muay Thai, mixology, poker, and rugby.
-
+          As an inquisitive person, I enjoy learning about how the physical
+          world works as well as how we, as humans, think on an individual and
+          societal level. My areas of interest, broadly speaking, include
+          computer science, philosophy, economics, and sociology.
+        </Text>
+        <Text>
+          My innate curiosity carries over to my hobbies in interesting ways
+          such as learning food science to improve my cooking (which I totally
+          recommend). I also enjoy Muay Thai, mixology, poker, and rugby.
         </Text>
       </Container>
     </Container>
@@ -112,17 +129,34 @@ const About = ({ experiences }: AboutProps): JSX.Element => (
         ))}
       </Grid>
     </Container>
+
     <Container
       alignContent="center"
       alignItems="center"
       textAlign="center"
       width="100%"
       paddingBottom="4rem"
-      gridGap="3rem"
+      gridGap="2rem"
     >
-      <Title fontSize="40px" as="h2">
-        Work Experiences
-      </Title>
+      <Grid
+        gridGap={['3rem', '30rem']}
+        gridTemplateColumns={['1fr', 'repeat(2, 1fr)']}
+        justifyItems="center"
+        alignItems="stretch"
+      >
+        <Title fontSize="40px" as="h2">
+          Work Experiences
+        </Title>
+        <Link
+          href="/TJ_Pavaritpong_Resume.pdf"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          <Button variant="animated" width="100%">
+            📥 Download Resumé
+          </Button>
+        </Link>
+      </Grid>
       <Container width="100%">
         {experiences.map(({ data }, i) => (
           <TransparentLink href={`/about/${data.slug}`} key={data.slug}>

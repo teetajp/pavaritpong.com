@@ -62,6 +62,9 @@ const Button = styled.button<
     variant === 'animated' &&
     css`
       animation: ${animation} 2s linear infinite;
+      &:hover {
+        transform: scale(1.04);
+      }
     `}
   ${compose(padding, color, layout)}
   

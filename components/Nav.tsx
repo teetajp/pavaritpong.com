@@ -59,7 +59,6 @@ const Links = (): JSX.Element => (
   <>
     <NavLink href="/">Home</NavLink>
     <NavLink href="/about">About</NavLink>
-    {/* <NavLink href="/now">Now</NavLink> */}
     <NavLink href="/blog">Blog</NavLink>
     <NavLink href="/bookmarks">Bookmarks</NavLink>
     <NavLink href="/projects">Projects</NavLink>
@@ -86,7 +85,7 @@ const Nav = ({ isOpen, onOpen, onClose }: NavProps): JSX.Element => {
       gridTemplateColumns={['1fr', '1fr', '1fr 1fr 1fr']}
       alignContent="center"
       justifyContent={['center', 'center', 'space-between']}
-      margin="2rem 2rem"
+      margin="2rem 0rem"
     >
       <Container display={['none', 'none', 'flex']}>
         <NavLink href="/">TJ Pavaritpong</NavLink>

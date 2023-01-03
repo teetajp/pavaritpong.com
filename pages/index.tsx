@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from "next/legacy/image";
+import Image from 'next/legacy/image';
 import { motion } from 'framer-motion';
 
 import { Container, Title, Button, Grid, Link, Text } from '@components';
@@ -39,8 +39,8 @@ const Home = (): JSX.Element => (
         <Container>
           <Text textAlign="center">
             I&apos;m a Statistics & Computer Science undergrad at the University
-            of Illinois Urbana-Champaign, expected to graduate in December 2024. Currently interning as a Data Engineer
-            at{' '}
+            of Illinois Urbana-Champaign, expected to graduate in December 2024.
+            Currently interning as a Data Engineer at{' '}
             <a
               href="https://www.agoda.com"
               target="_blank"
@@ -54,10 +54,6 @@ const Home = (): JSX.Element => (
         <Link href="/about">
           <Button>More about me &rarr;</Button>
         </Link>
-        { /* TODO: Create "Download Resume" button */ }
-        {/* <Link href="/TJ_Pavaritpong_Resume.pdf" target="_blank">
-          <Button>Download Resume</Button>
-        </Link> */}
       </Container>
     </Container>
 
@@ -68,7 +64,8 @@ const Home = (): JSX.Element => (
         </Title>
         <Text textAlign="center">
           Although I&apos;m not actively looking for job opportunities, I will
-          be seeking US-based internships for Summer 2024 once the recruiting season begins.
+          be seeking US-based internships for Summer 2024 once the recruiting
+          season begins.
         </Text>
         <Grid
           gridGap="2rem"
