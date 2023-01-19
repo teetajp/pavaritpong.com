@@ -2,10 +2,10 @@ import { ExtendedRecordMap } from 'notion-types';
 import { getPageTitle } from 'notion-utils';
 
 export const POSTS = {
-  '2023-plans': {
-    date: new Date('2023-01-02').toDateString(),
-    uri: 'teetajp/Pushing-myself-to-new-limits-in-2023-2aeec7bf50fc4af39fe65c571eebf938'
-  },
+  // '2023-plans': {
+  //   date: new Date('2023-01-02').toDateString(),
+  //   uri: 'teetajp/Pushing-myself-to-new-limits-in-2023-2aeec7bf50fc4af39fe65c571eebf938'
+  // },
 };
 
 export interface PageInfo {
