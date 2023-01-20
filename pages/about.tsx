@@ -85,9 +85,9 @@ const About = ({ experiences }: AboutProps): JSX.Element => (
       <Container maxWidth={['100%', '720px']} marginY="2rem">
         <Text>
           Born and raised in Thailand, I moved to Minnesota, USA for high school
-          when I was 13. Now, I&apos;m a Statistics & Computer Science undergrad
-          at the University of Illinois Urbana-Champaign, expected to graduate
-          in December 2024.
+          when I was 13. Now, I am pursuing a B.S. in Statistics & Computer
+          Science at the University of Illinois Urbana-Champaign, with an
+          expected graduation date of December 2024.
         </Text>
         <Text>
           As an inquisitive person, I enjoy learning about how the physical
