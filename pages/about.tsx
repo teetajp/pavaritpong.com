@@ -91,12 +91,12 @@ const About = ({ experiences }: AboutProps): JSX.Element => (
         </Text>
         <Text>
           As an inquisitive person, I enjoy learning about how the physical
-          world works as well as how we, as humans, think and make decisions on an individual and
-          societal level. My areas of interest, broadly speaking, include
-          computer science, philosophy, economics, and sociology. I am
-          considering the possibility of going to grad school to study
-          algorithmic game theory, cognitive science, computational sociology,
-          or quantative finance (still exploring my interests).
+          world works as well as how we, as humans, think and make decisions on
+          an individual and societal level. My areas of interest, broadly
+          speaking, include computer science, philosophy, economics, and
+          sociology. I am considering the possibility of going to grad school to
+          study algorithmic game theory, cognitive science, computational
+          sociology, or quantative finance (still exploring my interests).
         </Text>
         <Text>
           My innate curiosity carries over to my hobbies in interesting ways

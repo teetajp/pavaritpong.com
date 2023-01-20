@@ -85,7 +85,7 @@ const Nav = ({ isOpen, onOpen, onClose }: NavProps): JSX.Element => {
       gridTemplateColumns={['1fr', '1fr', '1fr 1fr 1fr']}
       alignContent="center"
       justifyContent={['center', 'center', 'space-between']}
-      margin="2rem 0rem"
+      margin={['2rem 0rem', '2rem 2rem']}
     >
       <Container display={['none', 'none', 'flex']}>
         <NavLink href="/">TJ Pavaritpong</NavLink>
