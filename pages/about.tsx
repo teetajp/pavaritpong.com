@@ -85,29 +85,27 @@ const About = ({ experiences }: AboutProps): JSX.Element => (
       <Container maxWidth={['100%', '720px']} marginY="2rem">
         <Text>
           Born and raised in Thailand, I moved to Minnesota, USA for high school
-          when I was 13. Now, I am pursuing a B.S. in Statistics & Computer
+          when I was 13. I am currently pursuing a B.S. in Statistics & Computer
           Science at the University of Illinois Urbana-Champaign, with an
           expected graduation date of December 2024.
         </Text>
         <Text>
           As an inquisitive person, I enjoy learning about how the physical
           world works as well as how we, as humans, think and make decisions on
-          an individual and societal level. My areas of interest, broadly
-          speaking, include computer science, philosophy, economics, and
-          sociology. I am considering the possibility of going to grad school to
-          study algorithmic game theory, cognitive science, computational
-          sociology, or quantative finance (still exploring my interests).
+          an individual and societal level. I am interested in various topics within computer science, philosophy, economics, sociology, and psychology. 
+          My research interests include algorithmic game theory, mechanism design, and cognitive science.
         </Text>
         <Text>
-          My innate curiosity carries over to my hobbies in interesting ways
-          such as learning food science to improve my cooking (which I totally
-          recommend). I also enjoy Muay Thai, mixology, poker, and rugby.
+          One such question I feel compelled to answer is:&nbsp;
+
+          <i>How can we design systems such that each individual&apos;s self-interested actions align with the interests of the group and prevent/deter harmful actions?</i>
         </Text>
+        <Text>Aside from my professional interests, I enjoy hobbies that have elements of competitiveness or creativeness, including Muay Thai, poker, mixology, cooking, reading, and piano.</Text>
       </Container>
     </Container>
 
     <Container
-      paddingY="2rem"
+      paddingY="1rem"
       gridGap="2rem"
       alignContent="center"
       alignItems="center"
