@@ -93,7 +93,7 @@ const About = ({ experiences }: AboutProps): JSX.Element => (
           As an inquisitive person, I enjoy learning about how the physical
           world works as well as how we, as humans, think and make decisions on
           an individual and societal level. I am interested in various topics within computer science, philosophy, economics, sociology, and psychology. 
-          My research interests include algorithmic game theory, mechanism design, operations research, multi-agent systems, and cognitive science.
+          My research interests include algorithmic game theory, mechanism design, operations research, artificial intelligence, multi-agent systems, and cognitive science.
           Besides research, I also like quantitative trading and data science.
         </Text>
         
