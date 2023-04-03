@@ -97,7 +97,9 @@ const About = ({ experiences }: AboutProps): JSX.Element => (
           Besides research, I also like quantitative trading and data science.
         </Text>
         
-        <Text> Outside my academic and professional interests, I enjoy hobbies that have an element of competitiveness or creativeness, including Muay Thai, poker, mixology, cooking, reading, and piano.</Text>
+        <Text>
+          Outside my academic and professional interests, I enjoy hobbies that have an element of competitiveness or creativeness, including Muay Thai, poker, mixology, cooking, reading, and piano.
+        </Text>
       </Container>
     </Container>
 
