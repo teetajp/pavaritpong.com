@@ -95,11 +95,7 @@ const About = ({ experiences }: AboutProps): JSX.Element => (
           an individual and societal level. I am interested in various topics within computer science, philosophy, economics, sociology, and psychology. 
           My research interests include algorithmic game theory, mechanism design, and cognitive science.
         </Text>
-        <Text>
-          One such question I feel compelled to answer is:&nbsp;
-
-          <i>How can we design systems such that each individual&apos;s self-interested actions align with the interests of the group and prevent/deter harmful actions?</i>
-        </Text>
+        
         <Text>Aside from my professional interests, I enjoy hobbies that have elements of competitiveness or creativeness, including Muay Thai, poker, mixology, cooking, reading, and piano.</Text>
       </Container>
     </Container>
