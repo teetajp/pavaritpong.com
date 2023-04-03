@@ -94,6 +94,7 @@ const About = ({ experiences }: AboutProps): JSX.Element => (
           world works as well as how we, as humans, think and make decisions on
           an individual and societal level. I am interested in various topics within computer science, philosophy, economics, sociology, and psychology. 
           My research interests include algorithmic game theory, mechanism design, operations research, multi-agent systems, and cognitive science.
+          Besides research, I also like quantitative trading and data science.
         </Text>
         
         <Text>Aside from my professional interests, I enjoy hobbies that have elements of competitiveness or creativeness, including Muay Thai, poker, mixology, cooking, reading, and piano.</Text>
