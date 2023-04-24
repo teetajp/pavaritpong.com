@@ -2,10 +2,10 @@ import { ExtendedRecordMap } from 'notion-types';
 import { getPageTitle } from 'notion-utils';
 
 export const POSTS = {
-  'reading-list': {
-    date: new Date('2023-04-03').toDateString(),
-    uri: 'teetajp/Reading-List-5d66da34d0b5415e93f9bc9bdc4413d6'
-  },
+  //'reading-list': {
+  //  date: new Date('2023-04-03').toDateString(),
+  //  uri: 'teetajp/Reading-List-5d66da34d0b5415e93f9bc9bdc4413d6'
+  //},
 };
 
 export interface PageInfo {
