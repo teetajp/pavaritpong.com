@@ -106,11 +106,13 @@ const About = ({ experiences }: AboutProps): JSX.Element => (
           psychology. I decided to study computer science because it enables me
           to take ideas from conception to a real product easily, and statistics
           as a means of investigating real-world phenomena. As an overarching
-          goal, I strive to make a positive social impact through my career. My
-          research interests include algorithmic game theory, mechanism design,
-          operations research, artificial intelligence, and cognitive science.
-          Besides research, I am also interested in quantitative trading and
-          data science.
+          goal, I strive to make a positive social impact through my career.
+        </Text>
+        <Text>
+          My research interests include algorithmic game theory, mechanism
+          design, operations research, artificial intelligence, and cognitive
+          science. Besides research, I am also interested in quantitative
+          trading and data science.
         </Text>
         <Text>Some questions (not yet refined) that intrigue me are:</Text>
         <List>
