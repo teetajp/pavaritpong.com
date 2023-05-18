@@ -1,4 +1,13 @@
-import { Card, Container, Grid, Link, Text, Title, Button } from '@components';
+import {
+  Card,
+  Container,
+  Grid,
+  Link,
+  Text,
+  Title,
+  Button,
+  List,
+} from '@components';
 import { GetStaticProps } from 'next';
 import Head from 'next/head';
 
@@ -92,25 +101,42 @@ const About = ({ experiences }: AboutProps): JSX.Element => (
         <Text>
           As an inquisitive person, I enjoy learning about how the physical
           world works as well as how we, as humans, think and make decisions on
-          an individual and societal level. I am interested in various topics within computer science, philosophy, economics, sociology, and psychology.
-          As an overarching goal, I strive to make a positive social impact through my career.
-          My research interests include algorithmic game theory, mechanism design, operations research, artificial intelligence, and cognitive science.
-          Besides research, I am also interested in quantitative trading and data science. 
-          I decided to study computer science because it enables me to take ideas from conception to a real product easily,
-          and statistics as a means of investigating real-world phenomena.
+          an individual and societal level. I am interested in various topics
+          within computer science, philosophy, economics, sociology, and
+          psychology. I decided to study computer science because it enables me
+          to take ideas from conception to a real product easily, and statistics
+          as a means of investigating real-world phenomena. As an overarching
+          goal, I strive to make a positive social impact through my career. My
+          research interests include algorithmic game theory, mechanism design,
+          operations research, artificial intelligence, and cognitive science.
+          Besides research, I am also interested in quantitative trading and
+          data science.
         </Text>
-        <Text>
-          Some questions (not yet refined) that intrigue me are:
+        <Text>Some questions (not yet refined) that intrigue me are:</Text>
+        <List>
           <ul>
             <li>What drives us as humans?</li>
-            <li>How can we design systems or policies that incentivize self-interested agents to take actions that collectively produce a socially-desirable outcome?</li>
-            <li>How can we eliminate biases, conscious and subsconcious, from our thinking?</li>
-            <li>How does technology affect our behavior? And how we can use this insight to augment our environments to improve our health and productivity?</li>
+            <li>
+              How can we design systems or policies that incentivize
+              self-interested agents to take actions that collectively produce a
+              socially-desirable outcome?
+            </li>
+            <li>
+              How can we eliminate biases, conscious and subsconcious, from our
+              thinking?
+            </li>
+            <li>
+              How does technology affect our behavior? And how we can use this
+              insight to augment our environments to improve our health and
+              productivity?
+            </li>
           </ul>
-        </Text>
-        
+        </List>
+
         <Text>
-          Outside of my academic and professional interests, I enjoy hobbies that have an element of competitiveness or creativity, including Muay Thai, poker, cooking, reading, weightlifting, and piano.
+          Outside of my academic and professional interests, I enjoy hobbies
+          that have an element of competitiveness or creativity, including Muay
+          Thai, poker, cooking, reading, weightlifting, and piano.
         </Text>
       </Container>
     </Container>
