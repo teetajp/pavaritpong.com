@@ -101,11 +101,12 @@ const About = ({ experiences }: AboutProps): JSX.Element => (
         </Text>
         <Text>
           Some questions (not yet refined) that intrigue me are:
-          - What drives us as humans?
-          - How can we design systems or policies that incentivize self-interested agents to take actions that collectively produce a socially-desirable outcome?
-          - How can we eliminate biases, conscious and subsconcious, from our thinking?
-          - How does technology affect our behavior? And how we can use this insight to augment our environments to improve our health and productivity?
-
+          <ul>
+            <li>What drives us as humans?</li>
+            <li>How can we design systems or policies that incentivize self-interested agents to take actions that collectively produce a socially-desirable outcome?</li>
+            <li>How can we eliminate biases, conscious and subsconcious, from our thinking?</li>
+            <li>How does technology affect our behavior? And how we can use this insight to augment our environments to improve our health and productivity?</li>
+          </ul>
         </Text>
         
         <Text>
