@@ -92,13 +92,24 @@ const About = ({ experiences }: AboutProps): JSX.Element => (
         <Text>
           As an inquisitive person, I enjoy learning about how the physical
           world works as well as how we, as humans, think and make decisions on
-          an individual and societal level. I am interested in various topics within computer science, philosophy, economics, sociology, and psychology. 
+          an individual and societal level. I am interested in various topics within computer science, philosophy, economics, sociology, and psychology.
+          As an overarching goal, I strive to make a positive social impact through my career.
           My research interests include algorithmic game theory, mechanism design, operations research, artificial intelligence, and cognitive science.
-          Besides research, I also like quantitative trading and data science.
+          Besides research, I am also interested in quantitative trading and data science. 
+          I decided to study computer science because it enables me to take ideas from conception to a real product easily,
+          and statistics as a means of investigating real-world phenomena.
+        </Text>
+        <Text>
+          Some questions (not yet refined) that intrigue me are:
+          - How can we design systems or policies that incentivize self-interested agents to take actions that collectively produce a socially-desirable outcome?
+          - What drives us as humans?
+          - How can we eliminate biases, conscious and subsconcious, from our thinking?
+          - How does technology affect our behavior? And how we can use this insight to augment our environments to improve our health and productivity?
+
         </Text>
         
         <Text>
-          Outside my academic and professional interests, I enjoy hobbies that have an element of competitiveness or creativeness, including Muay Thai, poker, mixology, cooking, reading, and piano.
+          Outside my academic and professional interests, I enjoy hobbies that have an element of competitiveness or creativity, including Muay Thai, poker, cooking, reading, weightlifting, and piano.
         </Text>
       </Container>
     </Container>
