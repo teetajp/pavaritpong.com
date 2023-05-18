@@ -3,7 +3,7 @@ import { getPageTitle } from 'notion-utils';
 
 export const POSTS = {
   'reading-list': {
-   date: new Date('2023-04-03').toDateString(),
+   date: new Date('2023-05-18').toDateString(),
    uri: 'teetajp/2023-Reading-List-Book-Review-5d66da34d0b5415e93f9bc9bdc4413d6'
   },
 };
