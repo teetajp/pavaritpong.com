@@ -109,7 +109,7 @@ const About = ({ experiences }: AboutProps): JSX.Element => (
         </Text>
         
         <Text>
-          Outside my academic and professional interests, I enjoy hobbies that have an element of competitiveness or creativity, including Muay Thai, poker, cooking, reading, weightlifting, and piano.
+          Outside of my academic and professional interests, I enjoy hobbies that have an element of competitiveness or creativity, including Muay Thai, poker, cooking, reading, weightlifting, and piano.
         </Text>
       </Container>
     </Container>
