@@ -117,7 +117,6 @@ const About = ({ experiences }: AboutProps): JSX.Element => (
         <Text>Some questions (not yet refined) that intrigue me are:</Text>
         <List>
           <ul>
-            <li>What drives us as humans?</li>
             <li>
               How can we design systems or policies that incentivize
               self-interested agents to take actions that collectively produce a
