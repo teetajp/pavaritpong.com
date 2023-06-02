@@ -103,8 +103,7 @@ const About = ({ experiences }: AboutProps): JSX.Element => (
           world works as well as how we, as humans, think and make decisions on
           an individual and societal level. I am interested in various topics
           within computer science, philosophy, economics, sociology, and
-          psychology. I decided to study computer science because it enables me
-          to take ideas from conception to a real product easily, and statistics
+          psychology. I decided to study computer science &mdash; to enable myself to take ideas from conception to a real product easily &mdash; and statistics &mdash;
           as a means of investigating real-world phenomena. As an overarching
           goal, I strive to make a positive social impact through my career.
         </Text>
