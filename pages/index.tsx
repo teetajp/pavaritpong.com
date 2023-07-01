@@ -40,7 +40,7 @@ const Home = (): JSX.Element => (
           <Text textAlign="center">
             I&apos;m a Statistics & Computer Science undergrad at the University
             of Illinois Urbana-Champaign, expected to graduate in December 2024.
-            <br />I am seeking quantitative trading and any data science-related intern positions for Summer 2024.
+            {/* <br />I am seeking quantitative trading and any data science-related intern positions for Summer 2024. */}
           </Text>
         </Container>
         <Link href="/about">
