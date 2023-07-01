@@ -33,12 +33,12 @@ interface AboutProps {
 }
 const stacks = [
   {
-    Icon: SiScala,
-    url: 'https://www.scala-lang.org/',
-  },
-  {
     Icon: SiPython,
     url: 'https://www.python.org/',
+  },
+  {
+    Icon: SiR,
+    url: 'https://www.r-project.org/',
   },
   {
     Icon: SiCplusplus,
@@ -72,13 +72,14 @@ const stacks = [
     Icon: SiGooglecloud,
     url: 'https://cloud.google.com/',
   },
-  {
-    Icon: SiR,
-    url: 'https://www.r-project.org/',
-  },
+
   {
     Icon: SiGit,
     url: 'https://git-scm.com/',
+  },
+  {
+    Icon: SiScala,
+    url: 'https://www.scala-lang.org/',
   },
 ];
 
@@ -93,51 +94,49 @@ const About = ({ experiences }: AboutProps): JSX.Element => (
       </Title>
       <Container maxWidth={['100%', '720px']} marginY="2rem">
         <Text>
-          Born and raised in Thailand, I moved to Minnesota, USA for high school
-          when I was 13. I am currently pursuing a B.S. in Statistics & Computer
-          Science at the University of Illinois Urbana-Champaign, with an
-          expected graduation date of December 2024.
+          Born and raised in Thailand, I embarked on an exciting journey when I
+          moved to Minnesota, USA for high school at the age of 13. Currently
+          pursuing a B.S. in Statistics & Computer Science at the University of
+          Illinois Urbana-Champaign, with an expected graduation date of
+          December 2024, my deep curiosity to understand the world and unravel
+          the intricate processes that shape human decision-making drives me. By
+          bridging the gap between abstract concepts and practical applications,
+          I find joy in connecting theoretical ideas to real-world scenarios,
+          using this approach to bring positive improvements to my surroundings.
         </Text>
         <Text>
-          As an inquisitive person, I enjoy learning about how the physical
-          world works as well as how we, as humans, think and make decisions on
-          an individual and societal level. I am interested in various topics
-          within computer science, philosophy, economics, sociology, and
-          psychology. I decided to study computer science &mdash; to enable myself to take ideas from conception to a real product easily &mdash; and statistics &mdash;
-          as a means of investigating real-world phenomena. As an overarching
-          goal, I strive to make a positive social impact through my career.
+          With a solid foundation in computer science and statistics, I
+          confidently navigate the complexities of innovation. Leveraging
+          technology and data, my ultimate goal is to make a lasting social
+          impact by engaging in impactful projects and inspiring others to join
+          me on this transformative journey. Guided by collaboration, empathy,
+          and inclusivity, I strive to effect sustainable change and contribute
+          to the betterment of society.
         </Text>
         <Text>
-          My research interests include algorithmic game theory, mechanism
-          design, operations research, artificial intelligence, and cognitive
-          science. Besides research, I am also interested in quantitative
-          trading and data science.
+          Beyond my academic pursuits, my interests extend to various
+          disciplines such as philosophy, economics, sociology, and psychology,
+          which enhance my understanding of complex societal issues and foster a
+          holistic approach to problem-solving. As for research interests, I am
+          particularly intrigued by algorithmic game theory, mechanism design,
+          operations research, artificial intelligence, and cognitive science.
+          Exploring these fields allows me to delve into the intricacies of
+          decision-making and contribute to innovative solutions.
         </Text>
-        <Text>Some questions (not yet refined) that intrigue me are:</Text>
-        <List>
-          <ul>
-            <li>
-              How can we design systems or policies that incentivize
-              self-interested agents to take actions that collectively produce a
-              socially-desirable outcome?
-            </li>
-            <li>
-              How can we eliminate biases, conscious and subsconcious, from our
-              thinking?
-            </li>
-            <li>
-              How does technology affect our behavior? And how we can use this
-              insight to augment our environments to improve our health and
-              productivity?
-            </li>
-          </ul>
-        </List>
 
         <Text>
-          Outside of my academic and professional interests, I enjoy hobbies
-          that have an element of competitiveness or creativity, including Muay
-          Thai, poker, cooking, reading, weightlifting, and piano.
+          In addition to research, I am captivated by the realms of quantitative
+          trading and data science, finding excitement in applying my skills and
+          knowledge to real-world contexts, unlocking valuable insights, and
+          driving informed decision-making. Outside of my academic and
+          professional endeavors, I engage in hobbies that combine competition
+          and creativity, such as practicing Muay Thai, playing poker,
+          experimenting with cooking, diving into books, weightlifting, and
+          expressing myself through the piano. These activities provide me with
+          an outlet to explore different facets of my personality and nurture a
+          well-rounded approach to life.
         </Text>
+
       </Container>
     </Container>
 

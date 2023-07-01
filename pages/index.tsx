@@ -40,15 +40,7 @@ const Home = (): JSX.Element => (
           <Text textAlign="center">
             I&apos;m a Statistics & Computer Science undergrad at the University
             of Illinois Urbana-Champaign, expected to graduate in December 2024.
-            Currently interning as a Data Engineer at{' '}
-            <a
-              href="https://www.agoda.com"
-              target="_blank"
-              rel="nopener noreferrer"
-            >
-              Agoda
-            </a>{' '}
-            in Bangkok, Thailand.
+            <br />I am seeking quantitative trading and any data science-related intern positions for Summer 2024.
           </Text>
         </Container>
         <Link href="/about">
@@ -63,9 +55,7 @@ const Home = (): JSX.Element => (
           Get in touch
         </Title>
         <Text textAlign="center">
-          Although I&apos;m not actively looking for job opportunities, I will
-          be seeking US-based internships for Summer 2024 once the recruiting
-          season begins.
+          Interested in discussing business opportunities or recruiting me?<br />Please reach out
         </Text>
         <Grid
           gridGap="2rem"
@@ -74,7 +64,7 @@ const Home = (): JSX.Element => (
           justifyItems="stretch"
           alignItems="stretch"
         >
-          <Link href="mailto:tj@pavaritpong.com">
+          <Link href="mailto:tj.pavaritpong@gmail.com">
             <Button width="100%">
               <motion.span
                 initial={{ display: 'inline-block' }}
