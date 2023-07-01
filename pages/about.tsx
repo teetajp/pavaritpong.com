@@ -6,7 +6,6 @@ import {
   Text,
   Title,
   Button,
-  List,
 } from '@components';
 import { GetStaticProps } from 'next';
 import Head from 'next/head';
