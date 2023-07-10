@@ -77,7 +77,7 @@ const Home = (): JSX.Element => (
               >
                 👋
               </motion.span>{' '}
-              Say hello
+              Email me
             </Button>
           </Link>
           <Link
