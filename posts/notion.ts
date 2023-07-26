@@ -8,7 +8,7 @@ export const POSTS = {
   },
   'redemption-poem-tj-pavaritpong': {
     date: new Date('2023-07-10').toDateString(),
-    uri: 'https://teetajp.notion.site/Redemption-by-TJ-Pavaritpong-3e678100f50248e6843c7d30ab568f66'
+    uri: 'https://teetajp.notion.site/Redemption-by-TJ-Pavaritpong-3e678100f50248e6843c7d30ab568f66?pvs=4'
   },
   // 'truth-serum-haunted-island-tj-pavaritpong': {
   //   date: new Date('2023-07-12').toDateString(),
