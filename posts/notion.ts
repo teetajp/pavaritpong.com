@@ -18,10 +18,10 @@ export const POSTS = {
   //   date: new Date('2023-07-13').toDateString(),
   //   uri: 'https://teetajp.notion.site/Ivy-Crown-McDojos-by-TJ-Pavaritpong-07af851c99394eb3830bd8a48b789817?pvs=4'
   // },
-  // 'lost-in-google-translation-by-tj-pavaritpong': {
-  //   date: new Date('2023-07-14').toDateString(),
-  //   uri: 'https://teetajp.notion.site/Lost-in-Google-Translation-by-TJ-Pavaritpong-4501649a661c4752a569259b95a1b2e1?pvs=4'
-  // },
+  'lost-in-google-translation-by-tj-pavaritpong': {
+    date: new Date('2023-07-14').toDateString(),
+    uri: 'https://teetajp.notion.site/Lost-in-Google-Translation-by-TJ-Pavaritpong-4501649a661c4752a569259b95a1b2e1?pvs=4'
+  },
 };
 
 export interface PageInfo {
