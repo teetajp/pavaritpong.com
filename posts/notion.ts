@@ -2,10 +2,10 @@ import { ExtendedRecordMap } from 'notion-types';
 import { getPageTitle } from 'notion-utils';
 
 export const POSTS = {
-  'how-to-turn-your-travels-into-a-documentary': {
-    date: new Date('2023-06-02').toDateString(),
-    uri: 'teetajp/How-To-Turn-Your-Travels-Into-a-Documentary-0dfbe70a88db4d55b58b41968f455440?pvs=4'
-  },
+  // 'how-to-turn-your-travels-into-a-documentary': {
+  //   date: new Date('2023-06-02').toDateString(),
+  //   uri: 'teetajp/How-To-Turn-Your-Travels-Into-a-Documentary-0dfbe70a88db4d55b58b41968f455440?pvs=4'
+  // },
   // 'redemption-poem-tj-pavaritpong': {
   //   date: new Date('2023-07-10').toDateString(),
   //   uri: 'https://teetajp.notion.site/Redemption-by-TJ-Pavaritpong-3e678100f50248e6843c7d30ab568f66?pvs=4'
