@@ -116,10 +116,10 @@ const About = ({ experiences }: AboutProps): JSX.Element => (
           Beyond my academic pursuits, my interests extend to various
           disciplines such as philosophy, economics, sociology, and psychology,
           which enhance my understanding of complex societal issues and foster a
-          holistic approach to problem-solving. As for research interests, I am
+          holistic approach to problem-solving.{/* As for research interests, I am
           particularly intrigued by algorithmic game theory, mechanism design,
-          operations research, artificial intelligence, and cognitive science.
-          Exploring these fields allows me to delve into the intricacies of
+          operations research, artificial intelligence, and cognitive science. */}
+           Exploring these fields allows me to delve into the intricacies of
           decision-making and contribute to innovative solutions.
         </Text>
 
