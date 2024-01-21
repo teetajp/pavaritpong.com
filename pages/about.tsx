@@ -1,28 +1,22 @@
-import {
-  Card,
-  Container,
-  Grid,
-  Link,
-  Text,
-  Title,
-  Button,
-} from '@components';
+import { Card, Container, Grid, Link, Text, Title, Button } from '@components';
 import { GetStaticProps } from 'next';
 import Head from 'next/head';
 
 import { TransparentLink } from '@components';
 import { getPosts, Post } from '@posts';
 import {
+  SiApachespark,
+  SiDocker,
   SiCplusplus,
+  SiMongodb,
   SiGit,
   SiGooglecloud,
-  SiMaterialui,
+  SiFlask,
   SiMysql,
   SiNodedotjs,
   SiPython,
   SiR,
   SiReact,
-  SiRedux,
   SiScala,
   SiTypescript,
 } from 'react-icons/si';
@@ -51,9 +45,13 @@ const stacks = [
     Icon: SiReact,
     url: 'https://reactjs.org/',
   },
+  // {
+  //   Icon: SiMaterialui,
+  //   url: 'https://mui.com/',
+  // },
   {
-    Icon: SiMaterialui,
-    url: 'https://mui.com/',
+    Icon: SiFlask,
+    url: 'https://flask.palletsprojects.com/en/3.0.x/',
   },
   {
     Icon: SiNodedotjs,
@@ -75,6 +73,18 @@ const stacks = [
   {
     Icon: SiScala,
     url: 'https://www.scala-lang.org/',
+  },
+  {
+    Icon: SiApachespark,
+    url: 'https://spark.apache.org/',
+  },
+  {
+    Icon: SiDocker,
+    url: 'https://www.docker.com/',
+  },
+  {
+    Icon: SiMongodb,
+    url: 'https://www.mongodb.com/',
   },
 ];
 
@@ -112,10 +122,11 @@ const About = ({ experiences }: AboutProps): JSX.Element => (
           Beyond my academic pursuits, my interests extend to various
           disciplines such as philosophy, economics, sociology, and psychology,
           which enhance my understanding of complex societal issues and foster a
-          holistic approach to problem-solving.{/* As for research interests, I am
+          holistic approach to problem-solving.
+          {/* As for research interests, I am
           particularly intrigued by algorithmic game theory, mechanism design,
           operations research, artificial intelligence, and cognitive science. */}
-           Exploring these fields allows me to delve into the intricacies of
+          Exploring these fields allows me to delve into the intricacies of
           decision-making and contribute to innovative solutions.
         </Text>
 
@@ -131,7 +142,6 @@ const About = ({ experiences }: AboutProps): JSX.Element => (
           an outlet to explore different facets of my personality and nurture a
           well-rounded approach to life.
         </Text>
-
       </Container>
     </Container>
 
@@ -144,7 +154,7 @@ const About = ({ experiences }: AboutProps): JSX.Element => (
       width="100%"
     >
       <Title fontSize="40px" as="h2">
-        Technologies I frequently use
+        Technologies I Have Worked With
       </Title>
       <Grid
         gridTemplateColumns={['repeat(3 , 1fr)', 'repeat(6 , 1fr)']}
