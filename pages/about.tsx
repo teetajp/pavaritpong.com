@@ -52,10 +52,6 @@ const stacks = [
     url: 'https://reactjs.org/',
   },
   {
-    Icon: SiRedux,
-    url: 'https://redux.js.org/',
-  },
-  {
     Icon: SiMaterialui,
     url: 'https://mui.com/',
   },
